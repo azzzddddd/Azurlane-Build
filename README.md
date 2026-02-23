@@ -78,7 +78,7 @@
 ## ❓ 常见问题 (FAQ)
 
 - **Q：3.2.0 往后的版本为什么不再进行构建了？**
-> **A：** JMBQ 在 3.2.0 往后的版本中加入了在线补丁，也许不需要再进行构建了。[**说明**](https://github.com/JMBQ/azurlane/releases/tag/3.2.0)
+> **A：** JMBQ 在 3.2.0 往后的版本中加入了在线补丁，也许不需要再进行构建流程了。请自行寻找相关的文件管理器手动进行更新[**说明**](https://github.com/JMBQ/azurlane/releases/tag/3.2.0)
 
 ## 📚 致谢
 
