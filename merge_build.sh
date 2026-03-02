@@ -115,7 +115,7 @@ DOWNLOAD_MOD_MENU() {
     local FILENAME="MOD_MENU.rar"
 
     echo "正在下载MOD补丁..."
-    local API_RESPONSE=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO}/releases/latest")
+    local API_RESPONSE=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO}/releases/tags/3.2.0")
     local JMBQ_VERSION=$(echo "${API_RESPONSE}" | jq -r '.tag_name')
     # 修改：查找name中含有.rar的文件，而不是直接使用第一个assets
     local DOWNLOAD_LINK=$(echo "${API_RESPONSE}" | jq -r '.assets[] | select(.name | contains(".rar")) | .browser_download_url' | head -n 1)
