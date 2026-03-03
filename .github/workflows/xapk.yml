@@ -43,7 +43,7 @@ jobs:
       - name: Release and Upload Assets
         uses: ncipollo/release-action@v1
         with:
-          tag: "JMBQ 3.2.0 Patch by ${{ env.VERSION }}-XAPK"
+          tag: "JMBQ-3.2.0_Patch_by_${{ env.VERSION }}-XAPK"
           name: "AzurLane JMBQ 3.2.0 Build V.${{ env.VERSION }} XAPK"
           artifacts: "${{ github.event.inputs.region }}-V.${{ env.VERSION }}.7z.*"
           allowUpdates: true
