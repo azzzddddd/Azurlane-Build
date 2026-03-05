@@ -92,7 +92,7 @@ DOWNLOAD_APKTOOL() {
     local FILENAME="apktool.jar"
 
     echo "正在下载Apktool..."
-    local API_RESPONSE=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO}/releases/latest")
+    local API_RESPONSE=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO}/releases/tags/v2.12.1")
     local DOWNLOAD_LINK=$(echo "${API_RESPONSE}" | jq -r '.assets[] | select(.name | endswith(".jar")) | .browser_download_url' | head -n 1)
     if [ -z "${DOWNLOAD_LINK}" ] || [ "${DOWNLOAD_LINK}" == "null" ]; then
         echo "无法找到Apktool下载链接"
