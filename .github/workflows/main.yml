@@ -50,8 +50,8 @@ jobs:
       - name: Release and Upload Assets
         uses: ncipollo/release-action@v1
         with:
-          tag: "${{ env.VERSION }}-APK-JMBQ_3.2.0"
-          name: "AzurLane JMBQ 3.2.0 Build Patch by V${{ env.VERSION }} APK"
+          tag: "APK-JMBQ_3.2.0"
+          name: "AzurLane JMBQ 3.2.0 Build Patch by new APK"
           artifacts: "${{ github.event.inputs.server_name }}-V.${{ env.VERSION }}.7z.*"
           allowUpdates: true
           body: |
