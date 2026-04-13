@@ -121,7 +121,7 @@ DOWNLOAD_MOD_MENU() {
     local REPO="azurlane"
     local FILENAME="MOD_MENU.rar"
 
-    echo "正在下载旧版MOD补丁..."
+    echo "正在下载MOD补丁..."
     local API_OLD_RESPONSE=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO}/releases/tags/3.2.0")
     local API_RESPONSE=$(curl -s "https://api.github.com/repos/${OWNER}/${REPO}/releases/latest")
     local JMBQ_VERSION=$(echo "${API_RESPONSE}" | jq -r '.tag_name')
