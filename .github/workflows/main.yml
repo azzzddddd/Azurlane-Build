@@ -45,26 +45,15 @@ jobs:
         run: |
           chmod +x merge_build.sh
           ./merge_build.sh "${{ github.event.inputs.server_name }}" "${{ github.event.inputs.download_url }}"
-
-      # 步骤6：创建 Release 并上传所有分卷文件
-      - name: Release and Upload Assets
-        uses: ncipollo/release-action@v1
+          
+      # 步骤6：安装多线程下载工具 axel
+      - name: Install dependencies
+        run: sudo apt-get install axel -y
+      
+      # 步骤7：上传分卷测试文件
+      - name: Upload Test Artifact
+        uses: actions/upload-artifact@v4
         with:
-          tag: "${{ env.JMBQ_VERSION }}-test-APK"
-          name: "AzurLane JMBQ ${{ env.JMBQ_VERSION }}Build test APK"
-          artifacts: "${{ github.event.inputs.server_name }}-V.${{ env.VERSION }}.7z.*"
-          allowUpdates: true
-          body: |
-            <details>
-              <summary>中文安装说明 - 点击展开</summary>
-                1. 在下方列表中找到你需要的版本前缀，下载该服务器名称前缀的所有以 7z.00* 结尾的文件</br>
-                2. 解压时只需要选择"XXX.7z.001"解压即可</br>
-                3. 在解压后的文件夹中找到apk文件并安装
-            </details>
-            
-            <details>
-              <summary>English Installation Instructions - Click to expand</summary>
-                1. Find the version prefix you need in the list below, and download all files ending with 7z.00* that have that server name prefix</br>
-                2. When extracting, simply select the "XXX.7z.001" file to decompress</br>
-                3. Find the APK file in the extracted folder and install it
-            </details>
+          name: Azurlane-JMBQ-Test-Build
+          path: *.7z*
+          retention-days: 3
