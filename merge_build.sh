@@ -188,10 +188,14 @@ DOWNLOAD_APK() {
     else
         # 普通APK模式下载逻辑
         APK_FILENAME="${GAME_SERVER}.apk"
-        echo "正在下载APK..."
-        curl -L -o "${DOWNLOAD_DIR}/${APK_FILENAME}" "${APK_URL}"
+        echo "正在使用多线程下载 APK..."
+        
+        # 使用 axel 替代 curl 进行多线程下载
+        axel -n 32 -o "${DOWNLOAD_DIR}/${APK_FILENAME}" "${APK_URL}"
+        
+        # 检查下载进程是否成功退出
         if [ $? -ne 0 ]; then
-            echo "APK下载失败"
+            echo "错误：APK 下载失败！"
             exit 1
         fi
         echo "APK [${APK_FILENAME}] 下载完成"
