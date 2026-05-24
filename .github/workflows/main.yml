@@ -39,17 +39,17 @@ jobs:
       - name: Install build-tools
         run: |
           yes | sdkmanager --install "build-tools;35.0.0"
-      
-      # 步骤5：执行构建流程
+
+      # 步骤5：安装多线程下载工具 axel
+      - name: Install dependencies
+        run: sudo apt-get install axel -y
+        
+      # 步骤6：执行构建流程
       - name: Build APK
         run: |
           chmod +x merge_build.sh
           ./merge_build.sh "${{ github.event.inputs.server_name }}" "${{ github.event.inputs.download_url }}"
           
-      # 步骤6：安装多线程下载工具 axel
-      - name: Install dependencies
-        run: sudo apt-get install axel -y
-      
       # 步骤7：上传分卷测试文件
       - name: Upload Test Artifact
         uses: actions/upload-artifact@v4
