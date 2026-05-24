@@ -42,7 +42,7 @@ jobs:
 
       # 步骤5：安装多线程下载工具 axel
       - name: Install dependencies
-        run: sudo apt-get install axel -y
+        run: sudo apt-get update && sudo apt-get install axel -y
         
       # 步骤6：执行构建流程
       - name: Build APK
