@@ -55,5 +55,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Azurlane-JMBQ-Test-Build
-          path: *.7z*
+          path: |
+            *.7z*
           retention-days: 3
