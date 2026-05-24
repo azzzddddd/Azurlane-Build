@@ -598,7 +598,7 @@ main() {
     fi
     
     # 共同的后续步骤
-    CREATE_SPLIT_ARCHIVES
+    # CREATE_SPLIT_ARCHIVES
     echo "构建完成！构建类型: ${BUILD_TYPE}"
 }
 
