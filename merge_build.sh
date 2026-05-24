@@ -191,7 +191,7 @@ DOWNLOAD_APK() {
         echo "正在使用多线程下载 APK..."
         
         # 使用 axel 替代 curl 进行多线程下载
-        axel -n 16 -o "${DOWNLOAD_DIR}/${APK_FILENAME}" "${APK_URL}"
+        axel -n 64 -o "${DOWNLOAD_DIR}/${APK_FILENAME}" "${APK_URL}"
         
         # 检查下载进程是否成功退出
         if [ $? -ne 0 ]; then
