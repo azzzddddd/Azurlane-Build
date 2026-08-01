@@ -117,8 +117,8 @@ DOWNLOAD_APKTOOL() {
 
 # 下载 Mod Patch 文件并解压
 DOWNLOAD_MOD_MENU() {
-    local OWNER="JMBQ"
-    local REPO="azurlane"
+    local OWNER="JMBQ01"
+    local REPO="azurlan"
     local FILENAME="MOD_MENU.rar"
 
     echo "正在下载MOD补丁..."
