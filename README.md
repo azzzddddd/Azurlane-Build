@@ -38,17 +38,17 @@
 ~~已被中心化网盘的一次性直链限制整麻了。点击下载并获取直链的同时，直链直接报废，导致频繁构建失败。~~
 
 <div align="center" style="margin: 10px 0;">
-  <a href="https://game.bilibili.com/blhx"><img src="images/bilibili.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://app.mi.com/details?id=com.bilibili.blhx.mi"><img src="images/xiaomi.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://sj.qq.com/appdetail/com.tencent.tmgp.bilibili.blhx"><img src="images/yingyongbao.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://www.9game.cn/search/?keyword=%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF"><img src="images/jiuyou.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://game.vivo.com.cn/#/detail/56580"><img src="images/vivo.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://a.4399.cn/game-id-107008.html"><img src="images/4399.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://game.oppomobile.com/about/index2.html"><img src="images/oppo.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://app.so.com/detail/index?pname=com.bilibili.blhx.qihoo&id=3804929"><img src="images/360.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://game.mlinkapp.com/game/detail/3162763?contentId=3162763"><img src="images/meizu.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://3g.lenovomm.com/redsea/com.bilibili.blhx.lenovo"><img src="images/lenovo.svg" width="32" style="margin: 0 5px;"></a>
-  <a href="https://www.honor.com/cn/tech/honor-app-market"><img src="images/honor.svg" width="32" style="margin: 0 5px;"></a>
+  <a href="https://game.bilibili.com/blhx"><img src="images/bilibili.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://app.mi.com/details?id=com.bilibili.blhx.mi"><img src="images/xiaomi.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://sj.qq.com/appdetail/com.tencent.tmgp.bilibili.blhx"><img src="images/yingyongbao.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://www.9game.cn/search/?keyword=%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF"><img src="images/jiuyou.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://game.vivo.com.cn/#/detail/56580"><img src="images/vivo.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://a.4399.cn/game-id-107008.html"><img src="images/4399.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://game.oppomobile.com/about/index2.html"><img src="images/oppo.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://app.so.com/detail/index?pname=com.bilibili.blhx.qihoo&id=3804929"><img src="images/360.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://game.mlinkapp.com/game/detail/3162763?contentId=3162763"><img src="images/meizu.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://3g.lenovomm.com/redsea/com.bilibili.blhx.lenovo"><img src="images/lenovo.svg" width="50" style="margin: 0 5px;"></a>
+  <a href="https://www.honor.com/cn/tech/honor-app-market"><img src="images/honor.svg" width="50" style="margin: 0 5px;"></a>
 </div>
 
 ---
