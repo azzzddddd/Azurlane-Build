@@ -91,4 +91,4 @@
 
 ## 📊 Star历史
 
-[![Star History Chart](https://starchart.cc/Chtholly344/Azurlane-Build.svg?variant=adaptive)](https://starchart.cc/Chtholly344/Azurlane-Build)
+[![Star History Chart](https://api.star-history.com/svg?repos=Chtholly344/AL-Build&type=Date)](https://star-history.com/#Chtholly344/AL-Build&Date)
