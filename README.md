@@ -82,7 +82,7 @@
 ---
 ## 📚 致谢
 
-1. [JMBQ/azurlane](https://github.com/JMBQ/azurlane)  
+1. [JMBQ01/azurlan](https://github.com/JMBQ01/azurlan)  
 2. [n0k0m3/PerseusCI](https://github.com/n0k0m3/PerseusCI)
 3. [L-JINBIN/MTDataFilesProvider](https://github.com/L-JINBIN/MTDataFilesProvider)
 ---
